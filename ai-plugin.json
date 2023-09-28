@@ -1,0 +1,18 @@
+{
+    "schema_version": "v1",
+    "name_for_human": "Placement Finder",
+    "name_for_model": "Placement Plugin",
+    "description_for_human": "Helps you search for the perfect university placement for your degree.",
+    "description_for_model": "Help the user find a university placement. Can search for summer placements and industrial placements and can be filtered by various criteria",
+    "auth": {
+        "type": "none"
+    },
+    "api": {
+        "type": "openapi",
+        "url": "http://localhost:3333/openapi.yaml"
+    },
+    "logo_url": "http://localhost:3333/logo.png",
+    "contact_email": "GadsbyT@cardiff.ac.uk",
+    "legal_info_url": "http://www.example.com/legal"
+}
+

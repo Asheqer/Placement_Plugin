@@ -3,7 +3,7 @@ import json
 from plugin_queries import QUERIES_INPUT
 
 GPT_MODEL = "gpt-3.5-turbo"
-openai.api_key = "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"
+openai.api_key = ""
 
 def json_config(query,input):
     completion = openai.ChatCompletion.create(
